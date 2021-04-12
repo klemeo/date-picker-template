@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- DatePicker -->
+    <style name="DatePickerTheme" parent="Theme.MaterialComponents.Light.Dialog.Alert">
+        <item name="colorAccent">#4CAF50</item>
+        <item name="android:buttonBarButtonStyle">@style/AlertButton</item>
+        <item name="colorPrimary">#4CAF50</item>
+    </style>
+
+    <style name="DatePickerThemeReg" parent="Theme.MaterialComponents.Light.Dialog.MinWidth">
+        <item name="android:datePickerStyle">@style/SpinnerDatePicker</item>
+        <item name="colorPrimary">#4CAF50</item>
+        <item name="android:buttonBarButtonStyle">@style/AlertButton</item>
+        <item name="android:calendarTextColor">#4CAF50</item>
+    </style>
+
+    <style name="SpinnerDatePicker" parent="android:Widget.Material.DatePicker">
+        <item name="android:datePickerMode">spinner</item>
+    </style>
+
+    <style name="DatePickerTheme.Any">
+        <item name="colorAccent">#4C65AF</item>
+        <item name="colorPrimary">#4C65AF</item>
+    </style>
+
+    <style name="CalendarDatePicker" parent="android:Widget.Material.DatePicker">
+        <item name="android:datePickerMode">calendar</item>
+        <item name="colorPrimary">#4CAF50</item>
+        <item name="android:textColorPrimary">#4CAF50</item>
+    </style>
+
+    <style name="AlertButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="rippleColor">#0C0C0C</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+</resources>

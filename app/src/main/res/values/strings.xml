@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Simple Calendar</string>
+    <string name="common_cancel">Cancel</string>
+    <string name="common_pick">Pick</string>
+</resources>
